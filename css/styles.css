@@ -1,1 +1,15 @@
-/* placeholder style */
+body {
+    background-color: #ffcb05;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #3d7dca;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 50px;
+    font-size: 25px;
+    line-height: 2;
+    text-shadow: 1px 1px 1px #000
+    }
+h1 {
+    text-align: center;
+}
