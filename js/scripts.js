@@ -2,45 +2,38 @@ let pokemonRepository = (function () {
 let pokemonList = [
   {
     name: "Seel",
-
-    category: "seaLion",
+    category: ["seaLion"],
     height: 3.07,
   },
   {
     name: "Mamoswine",
-
-    category: "twinTusk",
+    category: ["twinTusk"],
     height: 8.02,
   },
   {
     name: "Whiscash",
-
-    category: "whiskers",
+    category: ["whiskers"],
     height: 2.11,
   },
   {
     name: "Camerupt",
-    
-    category: "eruption",
+    category: ["eruption"],
     height: 6.03,
     },
   {
     name: "Slaking",
-
-    category: "lazy",
+    category: ["lazy"],
     height: 6.07,
   },
   {
     name: "Poochyena",
-    category: "bite",
-    height: 1.08,
-
+    category: ["bite"],
+    height: 1.08
   },
   {
     name: "Rillaboom",
-    category: "drummer",
-    height: 6.11,
-
+    category: ["drummer"],
+    height: 6.11
   }
 ];
 function add(pokemon) {
